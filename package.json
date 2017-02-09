@@ -1,0 +1,19 @@
+{
+  "name": "testdata",
+  "version": "0.0.1",
+  "description": "Testdata intended for use in unit tests, user interface development etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henit/testdata.git"
+  },
+  "author": "Henrik Haugberg <henrik.haugberg@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henit/testdata/issues"
+  },
+  "homepage": "https://github.com/henit/testdata#readme"
+}
