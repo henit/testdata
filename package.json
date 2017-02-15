@@ -1,6 +1,6 @@
 {
   "name": "testdata",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Testdata intended for use in unit tests, user interface development etc.",
   "main": "index.js",
   "scripts": {
