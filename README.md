@@ -25,6 +25,7 @@ import got from 'testdata/got';
 got.getRandomBook();
 got.getRandomCharacter();
 got.getRandomQuote();
+```
 
 ## Author
 
