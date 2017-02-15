@@ -1,5 +1,6 @@
 {
     "name": "Jon Snow",
     "nickname": "Lord Snow",
-    "house": "Stark"
+    "house": "Stark",
+    "picture": "https://henit.github.io/testdata/got/characters/jon-snow.jpg"
 }

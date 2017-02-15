@@ -33,7 +33,7 @@ got.getRandomQuote();
 import author from 'testdata/got/author';
 ```
 
-*JSONDirect links*
+*JSON Direct links*
 
 - [Author](got/author.json)
 
@@ -44,7 +44,7 @@ import author from 'testdata/got/author';
 import books from 'testdata/got/books';
 ```
 
-*JSONDirect links*
+*JSON Direct links*
 
 - [Book 1 - A Game of Thrones](got/books/book1.json)
 - [Book 2 - A Clash of Kings](got/books/book2.json)

@@ -1,5 +1,6 @@
 {
     "name": "Cersei Lannister",
     "nickname": "Queen mother",
-    "house": "Lannister"
+    "house": "Lannister",
+    "picture": "https://henit.github.io/testdata/got/characters/cersei-lannister.jpg"
 }

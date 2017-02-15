@@ -1,5 +1,6 @@
 {
     "name": "Petyr Baelish",
     "nickname": "Littlefinger",
-    "house": "Tully"
+    "house": "Tully",
+    "picture": "https://henit.github.io/testdata/got/characters/petyr-baelish.jpg"
 }

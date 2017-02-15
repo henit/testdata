@@ -1,5 +1,6 @@
 {
     "name": "Daenerys Targaryen",
     "nickname": "Mother of dragons",
-    "house": "Targaryen"
+    "house": "Targaryen",
+    "picture": "https://henit.github.io/testdata/got/characters/daenerys-targaryen.jpg"
 }

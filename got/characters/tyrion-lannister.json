@@ -1,5 +1,6 @@
 {
     "name": "Tyrion Lannister",
     "nickname": "The Imp",
-    "house": "Lannister"
+    "house": "Lannister",
+    "picture": "https://henit.github.io/testdata/got/characters/tyrion-lannister.jpg"
 }

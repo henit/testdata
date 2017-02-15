@@ -1,5 +1,6 @@
 {
     "name": "Jaime Lannister",
     "nickname": "Kingslayer",
-    "house": "Lannister"
+    "house": "Lannister",
+    "picture": "https://henit.github.io/testdata/got/characters/jaime-lannister.jpg"
 }

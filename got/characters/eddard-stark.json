@@ -1,5 +1,6 @@
 {
     "name": "Eddard Stark",
     "nickname": "Ned",
-    "house": "Stark"
+    "house": "Stark",
+    "picture": "https://henit.github.io/testdata/got/characters/eddard-stark.jpg"
 }
