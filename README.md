@@ -40,8 +40,10 @@ import author from 'testdata/got/author';
 ## Books
 
 ```javascript
-// Import json data - books.book1
 import books from 'testdata/got/books';
+// books.book1, ...
+
+import book1 from 'testdata/got/books/book1';
 ```
 
 *JSON Direct links*
@@ -57,11 +59,13 @@ import books from 'testdata/got/books';
 ## [Characters](got/characters/index.js)
 
 ```javascript
-// Import json data - characters.EddardStark
 import characters from 'testdata/got/characters';
+// characters.EddardStark, ...
 
-// For Webpack loaders or similar use cases:
+import ned from 'testdata/got/characters/eddard-stark';
+
 import 'testdata/got/characters/eddard-stark.jpg';
+// For Webpack loaders or similar use cases
 ```
 
 *JSON Direct links*
@@ -88,9 +92,25 @@ import 'testdata/got/characters/eddard-stark.jpg';
 
 ```javascript
 import quotes from 'testdata/got/quotes';
-// ['quote 1', 'quote2', ...]
+// ['quote 1', 'quote 2', ...]
 ```
+
+# Photos
+
+- [City](photos/city.jpg) ([1280px](photos/city-1280.jpg) | [640px](photos/city-640.jpg))
+- [Crystal](photos/crystal.jpg) ([1280px](photos/crystal-1280.jpg) | [640px](photos/crystal-640.jpg))
+- [Fireplace](photos/fireplace.jpg) ([1280px](photos/fireplace-1280.jpg) | [640px](photos/fireplace-640.jpg))
+- [Food](photos/food.jpg) ([1280px](photos/food-1280.jpg) | [640px](photos/food-640.jpg))
+- [Lantern](photos/lantern.jpg) ([1280px](photos/lantern-1280.jpg) | [640px](photos/lantern-640.jpg))
+- [Mountains](photos/mountains.jpg) ([1280px](photos/mountains-1280.jpg) | [640px](photos/mountains-640.jpg))
+- [Music](photos/music.jpg) ([1280px](photos/music-1280.jpg) | [640px](photos/music-640.jpg))
+- [Night](photos/night.jpg) ([1280px](photos/night-1280.jpg) | [640px](photos/night-640.jpg))
+- [Owl](photos/owl.jpg) ([1280px](photos/owl-1280.jpg) | [640px](photos/owl-640.jpg))
+- [Sunset](photos/sunset.jpg) ([1280px](photos/sunset-1280.jpg) | [640px](photos/sunset-640.jpg))
+- [Winter](photos/winter.jpg) ([1280px](photos/winter-1280.jpg) | [640px](photos/winter-640.jpg))
 
 # Copyright
 
 Testdata contains references, data and multimedia contents that is copied from published novels and media. This contents is used for the sake of familiarity and respect for the quality of the works. Testdata is open source and not for any kind of commercial use.
+
+Source of photos: [pixabay.com](https://pixabay.com/), released under Creative Commons CC0.
