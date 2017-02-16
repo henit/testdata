@@ -97,17 +97,17 @@ import quotes from 'testdata/got/quotes';
 
 # Photos
 
-- [City](photos/city.jpg) ([1280px](photos/city-1280.jpg) | [640px](photos/city-640.jpg))
-- [Crystal](photos/crystal.jpg) ([1280px](photos/crystal-1280.jpg) | [640px](photos/crystal-640.jpg))
-- [Fireplace](photos/fireplace.jpg) ([1280px](photos/fireplace-1280.jpg) | [640px](photos/fireplace-640.jpg))
-- [Food](photos/food.jpg) ([1280px](photos/food-1280.jpg) | [640px](photos/food-640.jpg))
-- [Lantern](photos/lantern.jpg) ([1280px](photos/lantern-1280.jpg) | [640px](photos/lantern-640.jpg))
-- [Mountains](photos/mountains.jpg) ([1280px](photos/mountains-1280.jpg) | [640px](photos/mountains-640.jpg))
-- [Music](photos/music.jpg) ([1280px](photos/music-1280.jpg) | [640px](photos/music-640.jpg))
-- [Night](photos/night.jpg) ([1280px](photos/night-1280.jpg) | [640px](photos/night-640.jpg))
-- [Owl](photos/owl.jpg) ([1280px](photos/owl-1280.jpg) | [640px](photos/owl-640.jpg))
-- [Sunset](photos/sunset.jpg) ([1280px](photos/sunset-1280.jpg) | [640px](photos/sunset-640.jpg))
-- [Winter](photos/winter.jpg) ([1280px](photos/winter-1280.jpg) | [640px](photos/winter-640.jpg))
+- [City](photos/city.jpg) ([1280px](photos/city-1280.jpg), [640px](photos/city-640.jpg) )
+- [Crystal](photos/crystal.jpg) ([1280px](photos/crystal-1280.jpg), [640px](photos/crystal-640.jpg))
+- [Fireplace](photos/fireplace.jpg) ([1280px](photos/fireplace-1280.jpg), [640px](photos/fireplace-640.jpg))
+- [Food](photos/food.jpg) ([1280px](photos/food-1280.jpg), [640px](photos/food-640.jpg))
+- [Lantern](photos/lantern.jpg) ([1280px](photos/lantern-1280.jpg), [640px](photos/lantern-640.jpg))
+- [Mountains](photos/mountains.jpg) ([1280px](photos/mountains-1280.jpg), [640px](photos/mountains-640.jpg))
+- [Music](photos/music.jpg) ([1280px](photos/music-1280.jpg), [640px](photos/music-640.jpg))
+- [Night](photos/night.jpg) ([1280px](photos/night-1280.jpg), [640px](photos/night-640.jpg))
+- [Owl](photos/owl.jpg) ([1280px](photos/owl-1280.jpg), [640px](photos/owl-640.jpg))
+- [Sunset](photos/sunset.jpg) ([1280px](photos/sunset-1280.jpg), [640px](photos/sunset-640.jpg))
+- [Winter](photos/winter.jpg) ([1280px](photos/winter-1280.jpg), [640px](photos/winter-640.jpg))
 
 # Copyright
 
