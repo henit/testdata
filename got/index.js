@@ -13,6 +13,11 @@ for (var k in characters) {
     got[k] = characters[k];
 }
 
+var locations = require('./locations');
+for (var k in locations) {
+    got[k] = locations[k];
+}
+
 // Random getters
 got.getRandomBook = function() {
     var keys = Object.keys(books);
@@ -24,6 +29,12 @@ got.getRandomCharacter = function() {
     var keys = Object.keys(characters);
     var key = keys[Math.floor(Math.random()*keys.length)];
     return characters[key];
+};
+
+got.getRandomLocation = function() {
+    var keys = Object.keys(locations);
+    var key = keys[Math.floor(Math.random()*keys.length)];
+    return locations[key];
 };
 
 got.getRandomQuote = function() {

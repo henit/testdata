@@ -9,7 +9,7 @@ import char5 from '../characters/jon-snow.json';
 import char6 from '../characters/petyr-baelish.json';
 import char7 from '../characters/tyrion-lannister.json';
 
-describe('character', () => {
+describe('characters', () => {
     describe('schema', () => {
         it('should invalidate other types of contents', () => {
             expect(() => Validate.assertValid(schema, '123')).to.throw(Error);

@@ -1,0 +1,14 @@
+{
+    "title": "Location",
+    "description": "Testdata location schema",
+    "type": "object",
+    "properties": {
+        "id": { "type": "integer" },
+        "type": { "enum": ["city", "castle"] },
+        "name": { "type": "string" },
+        "population": { "type": "integer" },
+        "picture": { "type": "string", "format": "uri" }
+    },
+    "required": ["name"],
+    "additionalProperties": false
+}
