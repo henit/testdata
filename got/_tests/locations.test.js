@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Validate from 'jsft-validate';
+import tv4 from 'tv4';
 import schema from '../schemas/location.json'
 import loc1 from '../locations/braavos.json';
 import loc2 from '../locations/casterly-rock.json';
@@ -11,19 +11,19 @@ import loc6 from '../locations/winterfell.json';
 describe('locations', () => {
     describe('schema', () => {
         it('should invalidate other types of contents', () => {
-            expect(() => Validate.assertValid(schema, '123')).to.throw(Error);
-            expect(() => Validate.assertValid(schema, 42)).to.throw(Error);
-            expect(() => Validate.assertValid(schema, {})).to.throw(Error);
-            expect(() => Validate.assertValid(schema, { foo: 'bar' })).to.throw(Error);
+            expect(tv4.validate('123', schema)).to.be.false;
+            expect(tv4.validate(42, schema)).to.be.false;
+            expect(tv4.validate({}, schema)).to.be.false;
+            expect(tv4.validate({ foo: 'bar' }, schema)).to.be.false;
         });
 
         it('should validate character mocks', () => {
-            Validate.assertValid(schema, loc1);
-            Validate.assertValid(schema, loc2);
-            Validate.assertValid(schema, loc3);
-            Validate.assertValid(schema, loc4);
-            Validate.assertValid(schema, loc5);
-            Validate.assertValid(schema, loc6);
+            expect(tv4.validate(loc1, schema)).to.be.true;
+            expect(tv4.validate(loc2, schema)).to.be.true;
+            expect(tv4.validate(loc3, schema)).to.be.true;
+            expect(tv4.validate(loc4, schema)).to.be.true;
+            expect(tv4.validate(loc5, schema)).to.be.true;
+            expect(tv4.validate(loc6, schema)).to.be.true;
         });
     });
 });

@@ -6,4 +6,5 @@ module.exports = {
     book5: require('./book5.json'),
     book6: require('./book6.json'),
     book7: require('./book7.json'),
+    bookInvalid: require('./bookInvalid.json')
 };

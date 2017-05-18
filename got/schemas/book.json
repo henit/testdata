@@ -1,0 +1,15 @@
+{
+    "title": "Book",
+    "description": "Testdata book",
+    "type": "object",
+    "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "published": { "type": "string" },
+        "pages": { "type": "integer" },
+        "chapters": { "type": "integer" },
+        "words": { "type": "integer" }
+    },
+    "required": ["name"],
+    "additionalProperties": false
+}

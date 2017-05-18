@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Validate from 'jsft-validate';
+import tv4 from 'tv4';
 import schema from '../schemas/character.json'
 import char1 from '../characters/cersei-lannister.json';
 import char2 from '../characters/daenerys-targaryen.json';
@@ -12,20 +12,20 @@ import char7 from '../characters/tyrion-lannister.json';
 describe('characters', () => {
     describe('schema', () => {
         it('should invalidate other types of contents', () => {
-            expect(() => Validate.assertValid(schema, '123')).to.throw(Error);
-            expect(() => Validate.assertValid(schema, 42)).to.throw(Error);
-            expect(() => Validate.assertValid(schema, {})).to.throw(Error);
-            expect(() => Validate.assertValid(schema, { foo: 'bar' })).to.throw(Error);
+            expect(tv4.validate('123', schema)).to.be.false;
+            expect(tv4.validate(42, schema)).to.be.false;
+            expect(tv4.validate({}, schema)).to.be.false;
+            expect(tv4.validate({ foo: 'bar' }, schema)).to.be.false;
         });
 
         it('should validate character mocks', () => {
-            Validate.assertValid(schema, char1);
-            Validate.assertValid(schema, char2);
-            Validate.assertValid(schema, char3);
-            Validate.assertValid(schema, char4);
-            Validate.assertValid(schema, char5);
-            Validate.assertValid(schema, char6);
-            Validate.assertValid(schema, char7);
+            expect(tv4.validate(char1, schema)).to.be.true;
+            expect(tv4.validate(char2, schema)).to.be.true;
+            expect(tv4.validate(char3, schema)).to.be.true;
+            expect(tv4.validate(char4, schema)).to.be.true;
+            expect(tv4.validate(char5, schema)).to.be.true;
+            expect(tv4.validate(char6, schema)).to.be.true;
+            expect(tv4.validate(char7, schema)).to.be.true;
         });
     });
 
